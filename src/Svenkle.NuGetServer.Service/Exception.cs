@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Svenkle.NuGetServer.Service
+namespace NuGetServer.Service
 {
     public class PrematureTerminationException : Exception
     {

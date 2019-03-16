@@ -1,6 +1,6 @@
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <OutputFolder>$(MSBuildProjectDirectory)\..\Svenkle.NuGetServer.Service\bin\$(Configuration)\Host\Website</OutputFolder>
+    <OutputFolder>$(MSBuildProjectDirectory)\..\NuGetServer.Service\bin\$(Configuration)\Host\Website</OutputFolder>
   </PropertyGroup>
   <Target Name="PublishWebsiteToService" AfterTargets="Build" DependsOnTargets="PipelinePreDeployCopyAllFilesToOneFolder">
     <ItemGroup>

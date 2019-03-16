@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{849C4739-2DC5-4112-97B0-23907F39A44E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Svenkle.NuGetServer.Service</RootNamespace>
-    <AssemblyName>Svenkle.NuGetServer.Service</AssemblyName>
+    <RootNamespace>NuGetServer.Service</RootNamespace>
+    <AssemblyName>NuGetServer.Service</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Svenkle.NuGetServer.Service.Service</StartupObject>
+    <StartupObject>NuGetServer.Service.Service</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />

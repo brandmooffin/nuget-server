@@ -4,7 +4,7 @@ using System.IO;
 using System.ServiceProcess;
 using Microsoft.VisualBasic.FileIO;
 
-namespace Svenkle.NuGetServer.Service
+namespace NuGetServer.Service
 {
     public class Service : ServiceBase
     {

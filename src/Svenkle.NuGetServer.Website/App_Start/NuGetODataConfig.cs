@@ -4,9 +4,9 @@ using System.Web.Http.Routing;
 using NuGet.Server;
 using NuGet.Server.V2;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(Svenkle.NuGetServer.Website.App_Start.NuGetODataConfig), "Start")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NuGetServer.Website.App_Start.NuGetODataConfig), "Start")]
 
-namespace Svenkle.NuGetServer.Website.App_Start 
+namespace NuGetServer.Website.App_Start 
 {
     public static class NuGetODataConfig 
 	{
